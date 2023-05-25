@@ -158,4 +158,5 @@ df = pd.DataFrame(data)
 caminos_optimos(Grafo)
 
 """Esto a continuación es un ejemplo de la vecindad de una gran persona"""
+print(\n A continuación vemos a la vecindad de Daniel Alfonso Bojacá Torres\n)
 print(encontrar_vecinos(Grafo1,'Daniel Alfonso Bojacá Torres'))
