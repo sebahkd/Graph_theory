@@ -117,10 +117,10 @@ for i in Grafo.nodes():
 """Aquí se visualiza el grafo en su totalidad"""
 #           Parte 6: REPRESENTACIÓN DEL GRAFO CON LOS CÓDIGOS Y/O NOMBRES (DESCOMENTE SOLAMENTE UNA DE LAS DOS OPCIONES!!)
 #OPCION 1 REPRESENTACION GRAFICA CON LOS CODIGOS    
-nx.draw(Grafo,with_labels=True,node_color=colores)
+#nx.draw(Grafo,with_labels=True,node_color=colores)
 
 #OPCION 2 REPRESENTACION GRAFICA CON LOS NOMBRES  
-#nx.draw(Grafo1,with_labels=True,node_color=colores)
+nx.draw(Grafo1,with_labels=True,node_color=colores)
 
 #           Parte 7: HALLAR LOS CÍRCULOS DE INFLUENCIA DE UNA PERSONA
 #Funcion que encuentra TODOS los circulos de influencia optimos entre dos personas
@@ -155,7 +155,7 @@ df = pd.DataFrame(data)
 #print(df)
 
 """ Abajo puede buscar a la persona de interés"""
-caminos_optimos(Grafo)
+caminos_optimos(Grafo1)
 
 """Esto a continuación es un ejemplo de la vecindad de una gran persona"""
 print('\n A continuación vemos a la vecindad de Daniel Alfonso Bojacá Torres\n')
